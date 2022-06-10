@@ -1,0 +1,17 @@
+input[type=text], input[type=email], input[type=number], select{
+    border: 2px solid blue;
+}
+
+button[type=button], button[type=reset]{
+    background-color: blue;
+    color: white    
+}
+
+select:hover, select:focus{
+    background-color: yellow;
+}
+
+h1::before { 
+    content: "Validación formulario" ;    
+}
+
